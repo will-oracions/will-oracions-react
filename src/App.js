@@ -1,5 +1,9 @@
+import AppRoutes from './routes/AppRoutes';
+
 const App = () => {
-  return <h1>will-oracions</h1>
+  return (
+    <AppRoutes />
+  );
 }
 
 export default App;
