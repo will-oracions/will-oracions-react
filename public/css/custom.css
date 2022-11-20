@@ -1,0 +1,471 @@
+.container {
+  /* background-color: black; */
+  max-width: 780px;
+}
+.about {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffecad;
+  border-radius: 50%;
+}
+.about #profile-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.about .intro {
+  padding-top: 24px;
+}
+
+.nav-btn {
+  padding: 8px 10px;
+  width: 120px;
+  position: relative;
+  bottom: 5px;
+  margin: auto;
+}
+
+.animated-item {
+  /* position: relative; */
+  width: 400px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+
+  /* position: relative;
+  bottom: 20px; */
+}
+
+.navbar-brand {
+  padding: 0;
+  /* background: pink; */
+  position: relative;
+  bottom: 4px;
+}
+
+.custom-btn:hover {
+  color: #fe3f40 !important;
+}
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 1px solid yellow; */
+  /* background-color: #eee; */
+  /* border-radius: 4px; */
+}
+
+.text {
+  color: #0008;
+}
+.text-hightlighted {
+  color: #ffc200;
+}
+.text-primary {
+  color: #ffc200 !important;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  color: #474559;
+  margin-top: 1rem;
+  /* border: 1px solid red; */
+}
+.skills-item {
+  /* background-color: #ccc; */
+  width: fit-content;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+form input,
+form textarea {
+  background-color: #eee !important;
+  color: #474559;
+  /* font-weight: 400 !important; */
+}
+form input::placeholder {
+  color: #0005 !important;
+  /* font-weight: normal !important; */
+}
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+footer {
+  color: #474559;
+}
+
+/*    SKILLS      */
+.skills-detailed-list {
+  /* border: 1px solid red; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+.skills-detailed-item {
+  /* border: 1px solid black; */
+  width: 100%;
+}
+
+.skills-section-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills-main-content {
+  /* border: 1px solid purple; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills-main-content > div h6 {
+  /* width: 50%; */
+  /* border: 1px solid red; */
+  /* text-align: center; */
+}
+
+.skills-section-content li {
+  margin: 1px 0.2rem;
+}
+.xskills-section-content li {
+  background-color: #e5e5e5;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  font-size: 16px;
+}
+.skills-detailed-item h4 {
+  color: #ffc200;
+  margin-top: 1.5rem;
+}
+.skills-detailed-item ul {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+.skills-detailed-item h6 {
+  margin-left: 1rem;
+  color: #474559;
+  margin-top: 0.2rem;
+}
+.skills-section-content.dark li {
+  background-color: #474559;
+  color: #eee;
+  padding: 0.2rem;
+}
+.skills-section-content.single-line {
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* border: 1px solid yellow; */
+}
+
+/*      RESUME      */
+.resume-container {
+  max-width: 950px;
+  margin: auto;
+  /* border: 1px solid #474559; */
+  padding: 15px;
+  padding-bottom: 0;
+  padding-top: 0;
+  /* margin-bottom: 15px; */
+  /* color: #474559; */
+  font-size: 15px;
+}
+.resume-profile-name {
+  color: #474559;
+}
+.resume-profile-position {
+  color: #0008;
+}
+.resume-section-title {
+  color: #474559;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+.resume-section-title + ul {
+  /* border: 1px solid red; */
+  margin-left: 0.5rem;
+}
+.resume-contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+.resume-contact li {
+  margin-right: 0.5rem;
+}
+.resume-contact.social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* border: 1px solid red; */
+  position: relative;
+  bottom: 4rem;
+}
+.resume-header {
+  /* background-color: #faf8fc; */
+  /* padding: 15px 0; */
+  /* margin-bottom: 1rem; */
+  /* padding: 15px; */
+}
+.resume-header-left-part,
+.resume-header-right-part {
+  padding: 15px;
+}
+.resume-left-part,
+.resume-header-left-part {
+  background-color: #faf8fc;
+}
+.resume-contact-card {
+  display: flex;
+}
+.resume-container p {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+#resume-root {
+  background-color: #474559;
+  padding: 30px;
+}
+body.resume {
+  padding: 0;
+}
+.resume-right-part,
+.resume-header-right-part {
+  background-color: #fff;
+}
+.resume-right-part {
+  padding-bottom: 0;
+  padding-bottom: 30px;
+  /* border: 1px solid red; */
+}
+.resume-header-left-part img {
+  height: 170px;
+  width: 100%;
+  object-fit: contain;
+}
+.resume-formation-item {
+  /* margin-bottom: 0.5rem; */
+}
+.resume-formation-item p {
+  margin-bottom: 0;
+  font-style: italic;
+}
+.resume-formation-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-progress-wrapper {
+  /* background-color: red; */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.skills-progress-inner {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid black;
+  font-size: 12px;
+  font-display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-projects {
+  /* padding-bottom: 30px; */
+  margin-left: 1rem;
+}
+
+.resume-projects-item {
+  margin-bottom: 1rem;
+}
+/* .resume-projects-item:last-of-type {
+  background-color: yellow;
+  margin-bottom: 0;
+} */
+/* .resume-projects .resume-projects-item p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 1px solid red;
+} */
+.resume-projects-item-header-position {
+  color: #474559;
+  font-size: 17px;
+  font-weight: bold;
+}
+.resume-projects-item-header-company {
+  color: #007bff;
+}
+.resume-projects .resume-projects-item-header:first-of-type {
+  margin-top: 1rem;
+}
+.resume-projects-item-periode {
+  color: #0008;
+  font-size: 16px;
+}
+.resume-section-content p {
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+.resume-section-content p:last-of-type {
+  padding-bottom: 0;
+}
+
+/*    PROJECTS */
+.projects .projects-details {
+  /* border: 1px solid red; */
+  margin: 30px 0;
+}
+.projects .projects-details-desc {
+  padding: 0;
+}
+
+.projects .projects-details-info-logo {
+  width: 250px;
+  overflow: hidden;
+  /* margin-left: auto; */
+}
+
+.projects .projects-details-info-address {
+  margin-left: auto;
+  /* border: 1px solid blue; */
+  color: #0008;
+  /* text-align: end; */
+}
+.projects .projects-details-info {
+  /* margin-left: auto; */
+  padding: 1rem;
+  padding-left: 0.5rem;
+  background-color: #ffc200;
+  font-size: 14px;
+}
+
+.projects .projects-details-info-logo {
+  text-align: start;
+  height: 80px;
+  width: 100%;
+}
+.projects .projects-details-info-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.projects .projects-details-info a {
+  color: #474559;
+}
+
+.projects .projects-details-info a:hover {
+  text-decoration: underline !important;
+  color: #474559 !important;
+}
+
+.svg-icon {
+  width: 20px;
+  height: auto;
+  color: #0008;
+}
+
+.personal-projects-list-item-projects-name {
+  text-transform: uppercase;
+  color: #474559;
+}
+.personal-projects-list-item {
+  margin-top: 4rem;
+}
+.personal-projects-list-item:first-of-type {
+  margin-top: 0;
+}
+
+.projects-details-info-address div {
+  margin: 0.2rem;
+}
+
+/*      OPENSOURCE PROJECTS     */
+.opensource-projects-list-item-logo {
+  width: 100%;
+  height: 80px;
+}
+
+.opensource-projects-list-item {
+  color: #474559;
+}
+
+.opensource-projects-list-item-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#opensource-projects {
+  margin-top: 4rem;
+}
+
+.opensource-projects-list {
+  margin-top: 2rem;
+}
+
+.coding-list-item:first-of-type {
+  margin-top: 5rem;
+}
+.coding-list-item {
+  color: #474559;
+}
+
+@media screen and (max-width: 990px) {
+  .header-banner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about {
+    padding-top: 0;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .contact-content {
+    flex-direction: column;
+  }
+  .contact-location {
+    width: 100%;
+    margin-left: 4rem;
+  }
+  .animated-info {
+    position: relative;
+    right: 6rem;
+  }
+
+  /*    RESUME    */
+  #resume-root {
+    padding: 0;
+  }
+  .resume-container {
+    width: 990px;
+    /* int */
+    /* padding: 0; */
+    /* font-size: 12px; */
+  }
+  .resume-profile-name {
+    font-size: 16px;
+  }
+
+  .projects-details-info-address div {
+    margin-left: 1rem;
+  }
+
+  /*      CODING        */
+  .coding-company {
+    margin-bottom: 2rem;
+  }
+}
