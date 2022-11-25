@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Header = () => {
   return <>
       <nav className="navbar navbar-expand-sm navbar-light">
@@ -13,26 +15,42 @@ const Header = () => {
 
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav mx-auto">
-                    <li className="nav-item">
-                        <a href="index.html" className="nav-link"><span data-hover="Home">Home</span></a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="skills.html" className="nav-link"><span data-hover="Skills">Skills</span></a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="coding.html" className="nav-link"><span data-hover="Coding">Coding</span></a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="projects.html" className="nav-link"><span data-hover="Projects">Projects</span></a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="index.html#contact" className="nav-link"><span data-hover="Contact">Contact</span></a>
-                    </li>
+                    <Link to="/">
+                        <li className="nav-item">
+                            <a href="index.html" className="nav-link"><span data-hover="Home">Home</span></a>
+                        </li>
+                    </Link>
 
-                    
+                    <Link to="/skills">
+                        <li className="nav-item">
+                            <a href="skills.html" className="nav-link"><span data-hover="Skills">Skills</span></a>
+                        </li>
+                    </Link>
+
+                    <Link to="/coding">
+                        <li className="nav-item">
+                            <a href="coding.html" className="nav-link"><span data-hover="Coding">Coding</span></a>
+                        </li>
+                    </Link>
+
+                    <Link to="/projects">
+                        <li className="nav-item">
+                            <a href="projects.html" className="nav-link"><span data-hover="Projects">Projects</span></a>
+                        </li>
+                    </Link>
+
+                    <Link to="/#contact">
+                        <li className="nav-item">
+                            <a href="index.html#contact" className="nav-link"><span data-hover="Contact">Contact</span></a>
+                        </li>
+                    </Link>
+
+                        
                     <li className="nav-item">
                       <div>
-                        <a href="/resume.html" target="_blank"  className="btn mr-lg-2 custom-btn nav-btn"><i className='uil uil-file-alt'></i> Resume</a>
+                        <Link to="/resume">
+                            <a href="/resume.html" target="_blank"  className="btn mr-lg-2 custom-btn nav-btn"><i className='uil uil-file-alt'></i> Resume</a>
+                        </Link>  
                       </div>
                     </li>
                 </ul>
