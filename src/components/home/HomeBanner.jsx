@@ -18,8 +18,8 @@ const HomeBanner = () => {
                         <p className="intro">Hi! I’m <strong>Louis Mary MONJENGUE</strong>. Self-taught and passionate software developer. I’m mainly interested in <span className="text-hightlighted">Web development, Cloud infrastructure and DevOps</span>. I enjoy finding elegant solutions to relatively complex problems you might encounter. But what I like the most is to share and learn from others 🙂</p>
 
                         <div className="custom-btn-group mt-4">
-                          <a href="./resume.html" target="_blank" className="btn mr-lg-2 custom-btn"><i className='uil uil-file-alt'></i> Resume</a>
-                          <a href="https://google.com" className="btn custom-btn custom-btn-bg custom-btn-link">My Works</a>
+                          <a href="/resume" target="_blank" className="btn mr-lg-2 custom-btn"><i className='uil uil-file-alt'></i> Resume</a>
+                          <a href="#coding" className="btn custom-btn custom-btn-bg custom-btn-link">My Works</a>
                         </div>
                     </div>
                 </div>

@@ -469,3 +469,54 @@ body.resume {
     margin-bottom: 2rem;
   }
 }
+
+.navbar {
+  background-color: #fff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.skill-medium {
+  color: #c79902;
+}
+.skill-low {
+  color: #fe3f40;
+}
+.skill-legende {
+  display: flex;
+  align-items: center;
+}
+.skill-legende-item {
+  margin: 0rem 0.5rem;
+}
+.skill-legende-item.strong {
+  color: #474559;
+}
+.skill-legende-item.medium {
+  color: #c79902;
+}
+.skill-legende-item.low {
+  color: #fe3f40;
+}
+.skill-legende-item span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.skill-legende-item.strong span {
+  background-color: #474559;
+}
+.skill-legende-item.medium span {
+  background-color: #c79902;
+}
+.skill-legende-item.low span {
+  background-color: #fe3f40;
+}
+.skill-legende-box {
+  margin-bottom: 2rem;
+}
+
+.certifications-list-item img {
+  width: 100%;
+  height: auto;
+}

@@ -48,9 +48,7 @@ const Header = () => {
                         
                     <li className="nav-item">
                       <div>
-                        <Link to="/resume">
-                            <a href="/resume.html" target="_blank"  className="btn mr-lg-2 custom-btn nav-btn"><i className='uil uil-file-alt'></i> Resume</a>
-                        </Link>  
+                        <a href="/resume" target="_blank"  className="btn mr-lg-2 custom-btn nav-btn"><i className='uil uil-file-alt'></i> Resume</a>
                       </div>
                     </li>
                 </ul>
