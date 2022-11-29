@@ -22,9 +22,9 @@ const Skills = () => {
                   <div className="skill-legende-box">
                     <h6 className="">Legende</h6>
                     <div className="skill-legende">
-                      <div className="skill-legende-item strong"><span></span> Good knowlege</div>
-                      <div className="skill-legende-item medium"><span></span> Medium knowlege</div>
-                      <div className="skill-legende-item low"><span></span> Low knowlege</div>
+                      <div className="skill-legende-item strong"><span></span> Good knowledge</div>
+                      <div className="skill-legende-item medium"><span></span> Medium knowledge</div>
+                      <div className="skill-legende-item low"><span></span> Low knowledge</div>
                     </div>
                   </div>
 
@@ -267,7 +267,7 @@ const Skills = () => {
                         <span>Redis,</span>
                       </li>
                       <li>
-                        <span className="skill-medium">Elastic Search</span>
+                        <span className="skill-low">Elastic Search</span>
                       </li>
                     </ul>
                   </div>

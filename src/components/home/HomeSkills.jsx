@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const HomeSkills = () => {
   return (
     <>
@@ -82,9 +84,11 @@ const HomeSkills = () => {
                   </div>
                 </div>
 
-                <div>
-                  <a href="./skills.html" className="btn custom-btn custom-btn-bg custom-btn-link">See all</a>
-                </div>
+                <Link to="/skills">
+                  <div>
+                    <a href="./skills.html" className="btn custom-btn custom-btn-bg custom-btn-link">See all</a>
+                  </div>
+                </Link>
               </div>
 
 
