@@ -18,10 +18,10 @@ export const AppRoutes = () => {
           <Route path='projects' element={<Projects />} />
           <Route path='certifications' element={<Certifications />} />
           <Route path='Skills' element={<Skills />} />
-          <Route path='Resume' element={<Resume />} />
 
           <Route path='*' element={<NotFound />} />
         </Route>
+        <Route path='/resume' element={<Resume />} />
       </Routes>
     </BrowserRouter>
   )
