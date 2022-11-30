@@ -3,9 +3,16 @@ import { Carousel } from 'react-responsive-carousel';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import jsDSA from '../../assets/certifications/freecodecamp-js-dsa.png';
-import jsIntermediate from '../../assets/certifications/hackerrank-js-intermediate.png';
-import jsBasic from '../../assets/certifications/hackerrank-js-basic.png';
+import jeconduisImage from '../../assets/myWorks/images/jeconduis.png';
+import jeconduis2Image from '../../assets/myWorks/images/jeconduis2.png';
+import jeconduis3Image from '../../assets/myWorks/images/jeconduis3.png';
+import geocadreImage from '../../assets/myWorks/images/geocadre.png';
+import geocadre1Image from '../../assets/myWorks/images/geocadre1.png';
+import geocadre2Image from '../../assets/myWorks/images/geocadre2.png';
+import dastudyImage from '../../assets/myWorks/images/dastudy.png';
+import dastudy2Image from '../../assets/myWorks/images/dastudy2.png';
+import dastudy3Image from '../../assets/myWorks/images/dastudy3.png';
+
 
 const HomeCoding = () => {
   return <>
@@ -18,16 +25,34 @@ const HomeCoding = () => {
                       <h2 className="text-primary mb-4">Things I have built for digital companies</h2>
                       <Carousel>
                         <div>
-                            <img src={jsDSA} alt="JavaScript Datastructure Certification" />
-                            <p className="legend">Freecodecamp JavaScript Datastructure Certification</p>
+                            <img src={geocadreImage} alt="my work" />
                         </div>
                         <div>
-                            <img src={jsIntermediate} alt="JavaScript Intermediate Level Certification" />
-                            <p className="legend">Hackerrank JavaScript Intermediate Leve Certification</p>
+                            <img src={geocadre1Image} alt="my work" />
                         </div>
                         <div>
-                            <img src={jsBasic} alt="JavaScript Basic Certification" />
-                            <p className="legend">Hackerrank JavaScript Basic Certification</p>
+                            <img src={geocadre2Image} alt="my work" />
+                        </div>
+                        <div>
+                            <img src={jeconduisImage} alt="my work" />
+                        </div>
+                        <div>
+                            <img src={jeconduis2Image} alt="my work" />
+                        </div>
+                        <div>
+                            <img src={jeconduis3Image} alt="my work" />
+                        </div>
+
+                        <div>
+                            <img src={dastudyImage} alt="my work" />
+                        </div>
+
+                        <div>
+                            <img src={dastudy2Image} alt="my work" />
+                        </div>
+
+                        <div>
+                            <img src={dastudy3Image} alt="my work" />
                         </div>
                       </Carousel>
 

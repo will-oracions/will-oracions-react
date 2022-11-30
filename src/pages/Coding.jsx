@@ -1,5 +1,7 @@
 import React from 'react';
 
+import geocadreVideo from '../assets/myWorks/videos/geocadre.mp4';
+
 const Coding = () => {
   React.useEffect(() => window.scrollTo(0, 0), []);
 
@@ -67,8 +69,14 @@ const Coding = () => {
 
                     <div>
                       <div class="col-lg-12">
+
+                      <div>
+                            {/* <img src={jsDSA} alt="JavaScript Datastructure Certification" /> */}
+                            <video width={'100%'} src={geocadreVideo} autoPlay loop></video>
+                            <p className="legend">Geocadre template design</p>
+                        </div>
   
-                        <div class="owl-carousel owl-theme">
+                        {/* <div class="owl-carousel owl-theme">
                           <div class="item">
                             <div class="project-info">
                               <img src="images/project/project-image01.png" class="img-fluid" alt="project" />
@@ -80,7 +88,7 @@ const Coding = () => {
                               <img src="images/project/project-image02.png" class="img-fluid" alt="project" />
                             </div>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
