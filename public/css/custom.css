@@ -209,6 +209,9 @@ footer {
   position: relative;
   bottom: 4rem;
 }
+.resume-contact svg {
+  color: #0008;
+}
 .resume-header {
   /* background-color: #faf8fc; */
   /* padding: 15px 0; */
@@ -564,4 +567,20 @@ body.resume {
   background: none !important;
   height: 234px;
   width: 316px;
+}
+
+.resume-contact.header svg {
+  color: #0008;
+  vertical-align: middle;
+  margin-right: 0.2rem;
+}
+
+.resume-contact.header li {
+  display: flex;
+  align-items: center;
+}
+
+.opensource-projects-list-item-info svg {
+  color: #0008;
+  margin-right: 0.5rem;
 }
