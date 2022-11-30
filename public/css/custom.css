@@ -468,6 +468,10 @@ body.resume {
   .coding-company {
     margin-bottom: 2rem;
   }
+
+  .contact-location {
+    margin-left: 0;
+  }
 }
 
 .navbar {
@@ -519,4 +523,45 @@ body.resume {
 .certifications-list-item img {
   width: 100%;
   height: auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links span a {
+  color: inherit;
+}
+
+.social-links span svg {
+  cursor: pointer;
+}
+
+.social-links span svg:hover {
+  color: #ffc200;
+}
+
+.contact-links {
+  color: #000.8;
+}
+
+.contact-links svg {
+  color: #0008;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 234px;
+  width: 316px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 234px;
+  width: 316px;
 }

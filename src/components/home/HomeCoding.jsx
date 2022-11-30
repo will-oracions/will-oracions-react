@@ -10,7 +10,7 @@ import jsBasic from '../../assets/certifications/hackerrank-js-basic.png';
 const HomeCoding = () => {
   return <>
       <section className="project py-5" id="project">
-      <div className="container">
+      <div  id="coding" className="container">
               
               <div className="row">
                 <div className="col-lg-11 col-12">
