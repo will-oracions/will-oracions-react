@@ -5,7 +5,10 @@ const Header = () => {
       <nav className="navbar navbar-expand-sm navbar-light">
         <div className="container">
             <Link to="/">
-                <a className="navbar-brand" href="/"><i className='uil uil-user'></i> will-oracions</a>
+                <a className="navbar-brand" href="/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"><path fill="currentColor" d="M16 44v424a12 12 0 0 0 12 12h456a12 12 0 0 0 12-12V44a12 12 0 0 0-12-12H28a12 12 0 0 0-12 12Zm57.51 193.5l76.88-61.5l-76.88-61.5l20-25l108.1 86.5L93.5 262.49ZM272 256h-96v-32h96Z"/></svg>
+                    <span class="ml-2">will-oracions</span>
+                </a>
             </Link>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"

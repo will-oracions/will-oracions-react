@@ -584,3 +584,7 @@ body.resume {
   color: #0008;
   margin-right: 0.5rem;
 }
+
+.navbar {
+  padding-top: 1rem;
+}

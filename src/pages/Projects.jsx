@@ -4,8 +4,6 @@ const Projects = () => {
   React.useEffect(() => window.scrollTo(0, 0), []);
 
   return <>
-  
-
   <section class="projects py-5" id="project">
       <div class="container">
         <div class="row">
