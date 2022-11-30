@@ -4,6 +4,8 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import geocadreVideo from '../assets/myWorks/videos/geocadre.mp4';
+import nohellefVideo from '../assets/myWorks/videos/nohellef.mp4';
+import brainMakerVideo from '../assets/myWorks/videos/brain-maker.mp4';
 
 import jeconduisImage from '../assets/myWorks/images/jeconduis.png';
 import jeconduis2Image from '../assets/myWorks/images/jeconduis2.png';
@@ -223,8 +225,7 @@ const Coding = () => {
 
                       <div>
                             {/* <img src={jsDSA} alt="JavaScript Datastructure Certification" /> */}
-                            <video width={'100%'} src={geocadreVideo} autoPlay loop></video>
-                            <p className="legend">Geocadre template design</p>
+                            <video width={'100%'} src={nohellefVideo} autoPlay loop></video>
                         </div>
                       </div>
                     </div>
@@ -360,7 +361,7 @@ const Coding = () => {
 
                       <div>
                             {/* <img src={jsDSA} alt="JavaScript Datastructure Certification" /> */}
-                            <video width={'100%'} src={geocadreVideo} autoPlay loop></video>
+                            <video width={'100%'} src={brainMakerVideo} autoPlay loop></video>
                         </div>
   
                         {/* <div class="owl-carousel owl-theme">
