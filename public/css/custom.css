@@ -588,3 +588,12 @@ body.resume {
 .navbar {
   padding-top: 1rem;
 }
+
+.no-project-preview-content {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
