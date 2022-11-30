@@ -13,7 +13,7 @@ const HomeCertifications = () => {
   return <>
   
   <section className="project py-5" id="project">
-    <div className="container">
+    <div id="certifications" className="container">
         
         <div className="row">
           <div className="col-lg-11 col-12">

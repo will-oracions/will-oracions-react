@@ -19,31 +19,31 @@ const Header = () => {
                 <ul className="navbar-nav mx-auto">
                     <Link to="/">
                         <li className="nav-item">
-                            <a href="index.html" className="nav-link"><span data-hover="Home">Home</span></a>
+                            <a href="/" className="nav-link"><span data-hover="Home">Home</span></a>
                         </li>
                     </Link>
 
                     <Link to="/skills">
                         <li className="nav-item">
-                            <a href="skills.html" className="nav-link"><span data-hover="Skills">Skills</span></a>
+                            <a href="/skills" className="nav-link"><span data-hover="Skills">Skills</span></a>
                         </li>
                     </Link>
 
                     <Link to="/coding">
                         <li className="nav-item">
-                            <a href="coding.html" className="nav-link"><span data-hover="Coding">Coding</span></a>
+                            <a href="/coding" className="nav-link"><span data-hover="Coding">Coding</span></a>
                         </li>
                     </Link>
 
                     <Link to="/projects">
                         <li className="nav-item">
-                            <a href="projects.html" className="nav-link"><span data-hover="Projects">Projects</span></a>
+                            <a href="/projects" className="nav-link"><span data-hover="Projects">Projects</span></a>
                         </li>
                     </Link>
 
                     <Link to="/#contact">
                         <li className="nav-item">
-                            <a href="index.html#contact" className="nav-link"><span data-hover="Contact">Contact</span></a>
+                            <a href="/#contact" className="nav-link"><span data-hover="Contact">Contact</span></a>
                         </li>
                     </Link>
 
