@@ -1,12 +1,12 @@
 const HomeContact = () => {
   return <>
-      <section className="project py-5" id="contact">
+      <section className="project py-5">
       <div className="container">
               
         <div  className="row">
-          <div className="col-lg-11 col-12">
+          <div id="contact" className="col-lg-11 col-12">
 
-              <div   className="col-lg-12">
+              <div className="col-lg-12">
                 <h2 className="text-primary">Contact Me</h2>
 
                 <div className="contact-content">

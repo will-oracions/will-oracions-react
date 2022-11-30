@@ -1,4 +1,8 @@
+import React from 'react';
+
 const Coding = () => {
+  React.useEffect(() => window.scrollTo(0, 0), []);
+
   return <>
   
   <section class="coding py-5" id="coding">

@@ -1,8 +1,11 @@
 // import SkillsHeader from '../components/skills/SkillsHeader';
 // import SkillsList from '../components/skills/SkillsList';
 // import { SKILLS_DATA } from '../skills.data';
+import React from 'react';
 
 const Skills = () => {
+  React.useEffect(() => window.scrollTo(0, 0), []);
+
   return <>
         <section class="project py-5" id="project">
       <div class="container">

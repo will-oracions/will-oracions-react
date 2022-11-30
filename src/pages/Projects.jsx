@@ -1,4 +1,8 @@
+import React from 'react';
+
 const Projects = () => {
+  React.useEffect(() => window.scrollTo(0, 0), []);
+
   return <>
   
 

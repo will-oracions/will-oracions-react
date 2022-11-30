@@ -1,6 +1,9 @@
+import React from 'react';
 const APP_DOMAIN = process.env.REACT_APP_DOMAIN;
 
 const Resume = () => {
+  React.useEffect(() => window.scrollTo(0, 0), []);
+
   return <>
   
   <div style={{position: 'relative', top: '-70px'}} id="resume-root">

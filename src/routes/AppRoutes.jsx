@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Coding from '../pages/Coding';
@@ -9,6 +10,25 @@ import AppLayout from '../layout/AppLayout';
 import NotFound from '../pages/NotFound';
 
 export const AppRoutes = () => {
+  // const { pathname, hash, key } = useLocation();
+
+  // React.useEffect(() => {
+  //   // if not a hash link, scroll to top
+  //   if (hash === '') {
+  //     window.scrollTo(0, 0);
+  //   }
+  //   // else scroll to id
+  //   else {
+  //     setTimeout(() => {
+  //       const id = hash.replace('#', '');
+  //       const element = document.getElementById(id);
+  //       if (element) {
+  //         element.scrollIntoView();
+  //       }
+  //     }, 0);
+  //   }
+  // }, [pathname, hash, key]);
+
   return (
     <BrowserRouter>
       <Routes>
