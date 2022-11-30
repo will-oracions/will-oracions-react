@@ -1,5 +1,8 @@
 import React from 'react';
 
+import kmerlinuxVideo from '../assets/myWorks/videos/kmerlinux.mp4';
+
+
 const Projects = () => {
   React.useEffect(() => window.scrollTo(0, 0), []);
 
@@ -73,7 +76,8 @@ const Projects = () => {
 
                       <div class="row">
                         <div class="col-12">
-                          <img width="100%" src="images/my-projects/0.png" alt="" />
+                          <video width={'100%'} src={kmerlinuxVideo} autoPlay loop></video>
+                          {/* <img width="100%" src="images/my-projects/0.png" alt="" /> */}
                         </div>
                       </div>
                     </div>
@@ -129,7 +133,7 @@ const Projects = () => {
 
                       <div class="row">
                         <div class="col-12">
-                          <img width="100%" src="images/my-projects/0.png" alt="" />
+                          <img width="100%" src="images/my-projects/sh.png" alt="" />
                         </div>
                       </div>
                     </div>
