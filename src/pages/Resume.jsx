@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 // import html2canvas from 'html2canvas';
 // import jsPDF from 'jspdf';
 
-import * as config from '../config/app.config';
+import * as config from "../config/app.config";
 
 const APP_DOMAIN = config.APP_DOMAIN;
 
@@ -24,11 +24,11 @@ const Resume = () => {
   //   ;
   // }
 
-  return <>
-  
-  <div style={{position: 'relative', top: '-70px'}} id="resume-root">
+  return (
+    <>
+      <div style={{ position: "relative", top: "-70px" }} id="resume-root">
         {/* <button onClick={printDocument}>download</button> */}
-        <div className="resume-container">
+        {/* <div className="resume-container">
           <div className="resume-header row">
               <div className="resume-header-left-part col-3">
                 <img width="150" src="images/profile/profile.jpg" alt="profile avatar" />
@@ -37,7 +37,7 @@ const Resume = () => {
                 <h4 className="resume-profile-name">Louis Mary MONJENGUE</h4>
                 <h6 className="resume-profile-position">Full Stack Web Developer</h6>
                 <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36"><path fill="currentColor" d="M26.54 18a19.38 19.38 0 0 0-.43-4h3.6a12.3 12.3 0 0 0-.67-1.6h-3.35a19.72 19.72 0 0 0-2.89-5.87a12.3 12.3 0 0 0-2.55-.76a17.83 17.83 0 0 1 3.89 6.59h-5.39V5.6h-1.5v6.77h-5.39a17.83 17.83 0 0 1 3.9-6.6a12.28 12.28 0 0 0-2.54.75a19.72 19.72 0 0 0-2.91 5.85H6.94A12.3 12.3 0 0 0 6.26 14h3.63a19.38 19.38 0 0 0-.43 4a19.67 19.67 0 0 0 .5 4.37H6.42A12.34 12.34 0 0 0 7.16 24h3.23a19.32 19.32 0 0 0 2.69 5.36a12.28 12.28 0 0 0 2.61.79A17.91 17.91 0 0 1 12 24h5.26v6.34h1.5V24H24a17.9 17.9 0 0 1-3.7 6.15a12.28 12.28 0 0 0 2.62-.81A19.32 19.32 0 0 0 25.61 24h3.2a12.34 12.34 0 0 0 .74-1.6H26a19.67 19.67 0 0 0 .54-4.4Zm-9.29 4.37h-5.74a17.69 17.69 0 0 1-.09-8.4h5.83Zm7.24 0h-5.74V14h5.83a18.21 18.21 0 0 1 .42 4a18.12 18.12 0 0 1-.51 4.37Z" class="clr-i-outline clr-i-outline-path-1"/><path fill="currentColor" d="M18 2a16 16 0 1 0 16 16A16 16 0 0 0 18 2Zm0 30a14 14 0 1 1 14-14a14 14 0 0 1-14 14Z" class="clr-i-outline clr-i-outline-path-2"/><path fill="none" d="M0 0h36v36H0z"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36"><path fill="currentColor" d="M26.54 18a19.38 19.38 0 0 0-.43-4h3.6a12.3 12.3 0 0 0-.67-1.6h-3.35a19.72 19.72 0 0 0-2.89-5.87a12.3 12.3 0 0 0-2.55-.76a17.83 17.83 0 0 1 3.89 6.59h-5.39V5.6h-1.5v6.77h-5.39a17.83 17.83 0 0 1 3.9-6.6a12.28 12.28 0 0 0-2.54.75a19.72 19.72 0 0 0-2.91 5.85H6.94A12.3 12.3 0 0 0 6.26 14h3.63a19.38 19.38 0 0 0-.43 4a19.67 19.67 0 0 0 .5 4.37H6.42A12.34 12.34 0 0 0 7.16 24h3.23a19.32 19.32 0 0 0 2.69 5.36a12.28 12.28 0 0 0 2.61.79A17.91 17.91 0 0 1 12 24h5.26v6.34h1.5V24H24a17.9 17.9 0 0 1-3.7 6.15a12.28 12.28 0 0 0 2.62-.81A19.32 19.32 0 0 0 25.61 24h3.2a12.34 12.34 0 0 0 .74-1.6H26a19.67 19.67 0 0 0 .54-4.4Zm-9.29 4.37h-5.74a17.69 17.69 0 0 1-.09-8.4h5.83Zm7.24 0h-5.74V14h5.83a18.21 18.21 0 0 1 .42 4a18.12 18.12 0 0 1-.51 4.37Z" className="clr-i-outline clr-i-outline-path-1"/><path fill="currentColor" d="M18 2a16 16 0 1 0 16 16A16 16 0 0 0 18 2Zm0 30a14 14 0 1 1 14-14a14 14 0 0 1-14 14Z" className="clr-i-outline clr-i-outline-path-2"/><path fill="none" d="M0 0h36v36H0z"/></svg>
                   <span> My Website </span>
                   <a href={APP_DOMAIN} target='_blank' rel="noreferrer">{APP_DOMAIN}</a>
                 </div>
@@ -59,7 +59,7 @@ const Resume = () => {
                   <ul className="resume-contact social">
                     <span>
                       <a href="https://twitter.com/will_oracions" target="_blank" rel="noreferrer">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273.5 222.3" role="img" aria-labelledby="ooq92vvwgg1j0cjya0fitgk1o2fr6uv" class="flex-shrink-0 octicon" width="1.6em" height="1.6em"><title id="ooq92vvwgg1j0cjya0fitgk1o2fr6uv">Twitter</title><path d="M273.5 26.3a109.77 109.77 0 0 1-32.2 8.8 56.07 56.07 0 0 0 24.7-31 113.39 113.39 0 0 1-35.7 13.6 56.1 56.1 0 0 0-97 38.4 54 54 0 0 0 1.5 12.8A159.68 159.68 0 0 1 19.1 10.3a56.12 56.12 0 0 0 17.4 74.9 56.06 56.06 0 0 1-25.4-7v.7a56.11 56.11 0 0 0 45 55 55.65 55.65 0 0 1-14.8 2 62.39 62.39 0 0 1-10.6-1 56.24 56.24 0 0 0 52.4 39 112.87 112.87 0 0 1-69.7 24 119 119 0 0 1-13.4-.8 158.83 158.83 0 0 0 86 25.2c103.2 0 159.6-85.5 159.6-159.6 0-2.4-.1-4.9-.2-7.3a114.25 114.25 0 0 0 28.1-29.1" fill="currentColor"></path></svg>  
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273.5 222.3" role="img" aria-labelledby="ooq92vvwgg1j0cjya0fitgk1o2fr6uv" className="flex-shrink-0 octicon" width="1.6em" height="1.6em"><title id="ooq92vvwgg1j0cjya0fitgk1o2fr6uv">Twitter</title><path d="M273.5 26.3a109.77 109.77 0 0 1-32.2 8.8 56.07 56.07 0 0 0 24.7-31 113.39 113.39 0 0 1-35.7 13.6 56.1 56.1 0 0 0-97 38.4 54 54 0 0 0 1.5 12.8A159.68 159.68 0 0 1 19.1 10.3a56.12 56.12 0 0 0 17.4 74.9 56.06 56.06 0 0 1-25.4-7v.7a56.11 56.11 0 0 0 45 55 55.65 55.65 0 0 1-14.8 2 62.39 62.39 0 0 1-10.6-1 56.24 56.24 0 0 0 52.4 39 112.87 112.87 0 0 1-69.7 24 119 119 0 0 1-13.4-.8 158.83 158.83 0 0 0 86 25.2c103.2 0 159.6-85.5 159.6-159.6 0-2.4-.1-4.9-.2-7.3a114.25 114.25 0 0 0 28.1-29.1" fill="currentColor"></path></svg>  
                       </a>
                     </span>
 
@@ -273,11 +273,11 @@ const Resume = () => {
               
             </div>
           </div>
-        </div>
-    </div>
-
-  
-  </>;
-}
+        </div> */}
+        Resume
+      </div>
+    </>
+  );
+};
 
 export default Resume;

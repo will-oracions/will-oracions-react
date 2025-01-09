@@ -1,39 +1,59 @@
 // import SkillsHeader from '../components/skills/SkillsHeader';
 // import SkillsList from '../components/skills/SkillsList';
 // import { SKILLS_DATA } from '../skills.data';
-import React from 'react';
+import React from "react";
 
 const Skills = () => {
   React.useEffect(() => window.scrollTo(0, 0), []);
 
-  return <>
-        <section class="project py-5" id="project">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-11 col-12">
-            
-            <div class="col-lg-12">
-              <h2 class="text-primary">Skills</h2>
+  return (
+    <>
+      <section className="project py-5" id="project">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-11 col-12">
+              <div className="col-lg-12">
+                <h2 className="text-primary">Skills</h2>
                 <div>
-                  <p>As a Full-Stack Developer, I am able to design, build, and maintain Single Page Application using JavaScript technologies.</p>
-                  <p>My main tech stack is Angular (Frontend) and Node.js/NestJS (Backend) with databases like MySQL, PostgreSQL, MongoDB and so one. I also built several web applications using a few other technologies based on javascript like React, vue and Express, loopback, feathers.js etc.</p>
-                  <p>After years of work experience as a contractual or freelancer, I am able to adapt to rapidly changing situations, and find creative solutions to immediate problems.</p>
+                  <p>
+                    As a Full-Stack Developer, I am able to design, build, and
+                    maintain Single Page Application using JavaScript
+                    technologies.
+                  </p>
+                  <p>
+                    My main tech stack is Angular (Frontend) and Node.js/NestJS
+                    (Backend) with databases like MySQL, PostgreSQL, MongoDB and
+                    so one. I also built several web applications using a few
+                    other technologies based on javascript like React, vue and
+                    Express, loopback, feathers.js etc.
+                  </p>
+                  <p>
+                    After years of work experience as a contractual or
+                    freelancer, I am able to adapt to rapidly changing
+                    situations, and find creative solutions to immediate
+                    problems.
+                  </p>
                 </div>
-              
-                <div className="skills-detailed-list mt-4">
 
+                <div className="skills-detailed-list mt-4">
                   <div className="skill-legende-box">
                     <h6 className="">Legende</h6>
                     <div className="skill-legende">
-                      <div className="skill-legende-item strong"><span></span> Good knowledge</div>
-                      <div className="skill-legende-item medium"><span></span> Medium knowledge</div>
-                      <div className="skill-legende-item low"><span></span> Low knowledge</div>
+                      <div className="skill-legende-item strong">
+                        <span></span> Good knowledge
+                      </div>
+                      <div className="skill-legende-item medium">
+                        <span></span> Medium knowledge
+                      </div>
+                      <div className="skill-legende-item low">
+                        <span></span> Low knowledge
+                      </div>
                     </div>
                   </div>
 
-                  <div class="skills-detailed-item">
+                  <div className="skills-detailed-item">
                     <h4>UI</h4>
-                    <ul class="skills-section-content single-line">
+                    <ul className="skills-section-content single-line">
                       <li>
                         <span>HTML5 - CSS3,</span>
                       </li>
@@ -67,17 +87,16 @@ const Skills = () => {
                       <li>
                         <span>Nebular</span>
                       </li>
-
                     </ul>
                   </div>
 
-                  <div class="skills-detailed-item">
+                  <div className="skills-detailed-item">
                     <h4>Frontend</h4>
-                    
-                    <div class="skills-main-content">
+
+                    <div className="skills-main-content">
                       <div>
                         <h6>Languages</h6>
-                        <ul class="skills-section-content dark">
+                        <ul className="skills-section-content dark">
                           <li>
                             <span>JavaScript</span>
                           </li>
@@ -89,7 +108,7 @@ const Skills = () => {
 
                       <div>
                         <h6>Frameworks</h6>
-                        <ul class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span>Angular</span>
                           </li>
@@ -104,7 +123,7 @@ const Skills = () => {
 
                       <div>
                         <h6>State Management</h6>
-                        <ul class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span>Redux</span>
                           </li>
@@ -125,7 +144,7 @@ const Skills = () => {
 
                       <div>
                         <h6>Web Sockets</h6>
-                        <ul class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span>Socket.io</span>
                           </li>
@@ -134,16 +153,16 @@ const Skills = () => {
 
                       <div>
                         <h6>WebRTC</h6>
-                        <ul class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
-                            <span class="skill-medium">WebRTC</span>
+                            <span className="skill-medium">WebRTC</span>
                           </li>
                         </ul>
                       </div>
 
                       <div>
                         <h6>Accessibility</h6>
-                        <ul class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span>Accessibility</span>
                           </li>
@@ -152,7 +171,7 @@ const Skills = () => {
 
                       <div>
                         <h6>Testing</h6>
-                        <ul class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span>Jest</span>
                           </li>
@@ -169,19 +188,19 @@ const Skills = () => {
                             <span className="skill-medium">Angular lib</span>
                           </li>
                           <li>
-                            <span  className="skill-medium">Cypress</span>
+                            <span className="skill-medium">Cypress</span>
                           </li>
                         </ul>
                       </div>
                     </div>
                   </div>
 
-                  <div class="skills-detailed-item">
+                  <div className="skills-detailed-item">
                     <h4>Backend</h4>
-                    <div class="skills-main-content">
+                    <div className="skills-main-content">
                       <div>
                         <h6>Languages</h6>
-                        <ul class="skills-section-content dark">
+                        <ul className="skills-section-content dark">
                           <li>
                             <span>JavaScript Node.js</span>
                           </li>
@@ -193,7 +212,7 @@ const Skills = () => {
 
                       <div>
                         <h6>Frameworks</h6>
-                        <ul  class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span>Express</span>
                           </li>
@@ -201,7 +220,7 @@ const Skills = () => {
                             <span>Nestjs</span>
                           </li>
                           <li>
-                            <span  className="skill-medium">Hapi</span>
+                            <span className="skill-medium">Hapi</span>
                           </li>
                           <li>
                             <span>Feathers</span>
@@ -214,7 +233,7 @@ const Skills = () => {
 
                       <div>
                         <h6>ORM</h6>
-                        <ul  class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span>Prisma</span>
                           </li>
@@ -229,16 +248,16 @@ const Skills = () => {
 
                       <div>
                         <h6>Web Socket</h6>
-                        <ul  class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span>Socket.io</span>
                           </li>
                         </ul>
                       </div>
-                    
+
                       <div>
                         <h6>Testing</h6>
-                        <ul class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span>Jest</span>
                           </li>
@@ -250,10 +269,10 @@ const Skills = () => {
                     </div>
                   </div>
 
-                  <div class="skills-detailed-item">
+                  <div className="skills-detailed-item">
                     <h4>Databases</h4>
 
-                    <ul  class="skills-section-content single-line">
+                    <ul className="skills-section-content single-line">
                       <li>
                         <span>MySQL,</span>
                       </li>
@@ -275,23 +294,23 @@ const Skills = () => {
                     </ul>
                   </div>
 
-                  <div class="skills-detailed-item">
+                  <div className="skills-detailed-item">
                     <h4>Transpiler</h4>
 
-                    <ul class="skills-section-content single-line">
+                    <ul className="skills-section-content single-line">
                       <li>Babel,</li>
                       <li>Webpack,</li>
                       <li className="skill-medium">Vite</li>
                     </ul>
                   </div>
 
-                  <div class="skills-detailed-item">
+                  <div className="skills-detailed-item">
                     <h4>Devops</h4>
 
-                    <div class="skills-main-content">
+                    <div className="skills-main-content">
                       <div>
                         <h6>Containerization</h6>
-                        <ul  class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span>Docker</span>
                           </li>
@@ -300,10 +319,10 @@ const Skills = () => {
                           </li>
                         </ul>
                       </div>
-                      
+
                       <div>
                         <h6>Ochestration</h6>
-                        <ul  class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span>Docker Swarm</span>
                           </li>
@@ -318,16 +337,16 @@ const Skills = () => {
 
                       <div>
                         <h6>Cloud provider</h6>
-                        <ul class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span className="skill-medium">AWS</span>
                           </li>
                         </ul>
                       </div>
-                          
+
                       <div>
                         <h6>CI/CD</h6>
-                        <ul  class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span>Jenkins</span>
                           </li>
@@ -345,7 +364,7 @@ const Skills = () => {
 
                       <div>
                         <h6>Monitoring</h6>
-                        <ul class="skills-section-content">
+                        <ul className="skills-section-content">
                           <li>
                             <span className="skill-low">Prometheus</span>
                           </li>
@@ -357,9 +376,9 @@ const Skills = () => {
                     </div>
                   </div>
 
-                  <div class="skills-detailed-item">
+                  <div className="skills-detailed-item">
                     <h4>Microservices</h4>
-                    <ul  class="skills-section-content single-line">
+                    <ul className="skills-section-content single-line">
                       <li>
                         <span>Nx,</span>
                       </li>
@@ -369,9 +388,9 @@ const Skills = () => {
                     </ul>
                   </div>
 
-                  <div class="skills-detailed-item">
+                  <div className="skills-detailed-item">
                     <h4>Methodoligie</h4>
-                    <ul  class="skills-section-content single-line">
+                    <ul className="skills-section-content single-line">
                       <li>
                         <span>SCRUM,</span>
                       </li>
@@ -379,7 +398,9 @@ const Skills = () => {
                         <span>Behavior Driver Development (BDD),</span>
                       </li>
                       <li>
-                        <span className="skill-medium">Domain Driver Development (DDD),</span>
+                        <span className="skill-medium">
+                          Domain Driver Development (DDD),
+                        </span>
                       </li>
                       <li>
                         <span>Test Driver Development (TDD),</span>
@@ -387,22 +408,22 @@ const Skills = () => {
                     </ul>
                   </div>
 
-                  <div class="skills-detailed-item">
+                  <div className="skills-detailed-item">
                     <h4>OS</h4>
-                    <ul class="skills-section-content single-line">
+                    <ul className="skills-section-content single-line">
                       <li>Linux,</li>
                       <li>OS X,</li>
                       <li>Windows</li>
                     </ul>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
-      </div>
-    </section>
-  </>
-}
+        </div>
+      </section>
+    </>
+  );
+};
 
 export default Skills;
