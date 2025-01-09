@@ -48,7 +48,7 @@ const HomeBanner = () => {
               <div className="about-image svg">
                 <img
                   id="profile-image"
-                  src="images/profile/profile2.png"
+                  src="images/profile/profile.jpg"
                   className="img-fluid"
                   alt="my profile"
                 />
