@@ -19,7 +19,7 @@ const HomeBanner = () => {
 
                 <p className="intro">
                   Hi! I’m <strong>Louis Mary MONJENGUE</strong>. A passionate
-                  software developer. I’m mainly interested in
+                  software developer. I’m mainly interested in&nbsp;
                   <span className="text-hightlighted">
                     Web development, Cloud infrastructure and DevOps
                   </span>
